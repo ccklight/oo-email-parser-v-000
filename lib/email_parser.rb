@@ -15,7 +15,7 @@ class EmailParser
 
   def parse
   binding.pry
-  
+  x = self.email
   
   end
   
