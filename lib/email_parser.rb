@@ -20,4 +20,3 @@ class EmailParser
   
   # end
  
-end
