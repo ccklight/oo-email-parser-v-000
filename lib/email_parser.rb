@@ -14,7 +14,7 @@ class EmailParser
 
 
   def parse
-  binding pry
+  binding.pry
   email_array = @email.split( ??? ).uniq 
 
   email_array
