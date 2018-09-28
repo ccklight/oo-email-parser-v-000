@@ -15,9 +15,9 @@ class EmailParser
 
   def parse
   email_array = @email.split( ??? ).uniq 
- 
+ ||
   email_array
-  
+  / .  \s /
   end
   
 end
