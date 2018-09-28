@@ -13,8 +13,8 @@ class EmailParser
 
 
 
-  # def parse
-  # email_array = @email.split(/[ , ]/).uniq 
+  def parse
+  email_array = @email.split(/[ , ]/).uniq 
  
   # email_array
   
