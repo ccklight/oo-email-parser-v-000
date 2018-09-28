@@ -14,7 +14,7 @@ class EmailParser
 
 
   def parse
-  email_array = ([@email(',').uniq || @email(' ').uniq]).split
+  email_array = ([@email(','," ").split ]).uniq
   email_array
   
   end
